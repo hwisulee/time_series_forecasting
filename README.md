@@ -20,7 +20,21 @@
 
 <h2 id="preview">Preview</h2>
 
+1. 만들어진 데이터셋 Dataframe화(+ index=df['year'])
 
+![캡처1](https://user-images.githubusercontent.com/62528282/170856101-e0e12c86-8596-4525-b426-cc35a4a10633.PNG)
+
+2. 데이터셋에 대한 산점도행렬(year)
+
+![sns_pairplot_year](https://user-images.githubusercontent.com/62528282/170855982-b8952376-fc80-4fef-a0ce-23f6438cac92.png)
+
+3. 데이터셋에 대한 산점도행렬(month)
+
+![sns_pairplot_month](https://user-images.githubusercontent.com/62528282/170855984-e76cef7b-5f33-4926-bd17-ca11c0554a79.png)
+
+4. 데이터셋의 각 column에 대한 연도별 차트
+
+![Figure_4](https://user-images.githubusercontent.com/62528282/170856059-dfc297b1-30bd-489c-bf43-36bdb537676e.png)
 
 <h2 id="library">Library</h2>
 
