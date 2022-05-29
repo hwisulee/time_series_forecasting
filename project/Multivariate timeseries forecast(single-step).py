@@ -83,12 +83,12 @@ with tf.device('/gpu:0'):
     STEP = 6
 
     # 예측하고 싶은 데이터 선택 - dataset[:, @]
-    x_train_single, y_train_single = multivariate_data(dataset, dataset[:, 1], 0,
+    x_train_single, y_train_single = multivariate_data(dataset, dataset[:, 5], 0,
                                                        TRAIN_SPLIT, past_history,
                                                        future_target, STEP,
                                                        single_step=True)
 
-    x_val_single, y_val_single = multivariate_data(dataset, dataset[:, 1],
+    x_val_single, y_val_single = multivariate_data(dataset, dataset[:, 5],
                                                        TRAIN_SPLIT, None, past_history,
                                                        future_target, STEP,
                                                        single_step=True)
