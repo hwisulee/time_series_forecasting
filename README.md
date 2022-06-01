@@ -9,13 +9,15 @@
 맡은 역할 : 데이터 수집 및 재가공, 관련 논문 탐구, 시스템 설계</br>
 개발 기간 : '22.05.18 ~ 개발중</br>
 개발 언어 : Python</br>
-개발 환경 : Windows 10 pro, Python 3.9.13, tensorflow & tensorflow-gpu 2.9.1, Keras 2.9.0, CUDA 11.5, CUDNN 8.3.3
+개발 환경 : Windows 10 pro, Python 3.9.13, tensorflow, Keras 2.9.0
 </code>
 </pre>
 
+[Report-download](https://drive.google.com/file/d/1HHa-d-Bx-HVgbcb2ZrPYt3a845zEzKoG/view?usp=sharing)
+
 ## Table of Contents
 1. [Preview](#preview)
-2. [Library](#library)
+2. [References](#references)
 3. [License](#license)
 
 <h2 id="preview">Preview</h2>
@@ -36,19 +38,28 @@
 
 ![Figure_4](https://user-images.githubusercontent.com/62528282/170856059-dfc297b1-30bd-489c-bf43-36bdb537676e.png)
 
-<h2 id="library">Library</h2>
+5. 데이터셋의 특성 분포 확인
 
->This Project included this Library.
+![Figure_3](https://user-images.githubusercontent.com/62528282/171444660-ea7f17a7-28e8-4a3a-a5c0-9f3298566461.png)
 
+6. LSTM 시계열예측 (12개월)
 
+![Figure_6](https://user-images.githubusercontent.com/62528282/171444723-5f133b17-06bc-46f3-b02d-2bd6be8e6480.png)
+
+7. LSTM 시계열예측 (24개월)
+
+![Figure_6](https://user-images.githubusercontent.com/62528282/171444748-4547671a-58ad-460c-8991-18628b82c92d.png)
+
+8. 모델 평가
+
+![Figure_9](https://user-images.githubusercontent.com/62528282/171445065-f4648207-3bc5-4111-b82f-c08b33b128d8.png)
+
+<h2 id="references">References</h2>
+
+1. [Tensorflow - timeseries](https://www.tensorflow.org/tutorials/structured_data/time_series)
+2. [Tensorflow - Linear regression](https://www.tensorflow.org/tutorials/keras/regression?hl=ko)
 
 <h2 id="license">License</h2>
-
->Library has this Licenses
-
-
-
-<br>
 
 >My Project has this License
 
