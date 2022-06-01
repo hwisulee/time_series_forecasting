@@ -13,6 +13,7 @@
 </code>
 </pre>
 
+The supported format for this report files is hwp.<br>
 [Report-download](https://drive.google.com/file/d/1HHa-d-Bx-HVgbcb2ZrPYt3a845zEzKoG/view?usp=sharing)
 
 ## Table of Contents
